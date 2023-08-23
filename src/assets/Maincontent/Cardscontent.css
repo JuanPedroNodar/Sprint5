@@ -1,0 +1,13 @@
+.cardWithImg {
+  color: white;
+  width: 20rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 35px;
+}
+
+.imgInsideCard {
+  width: 5rem;
+}

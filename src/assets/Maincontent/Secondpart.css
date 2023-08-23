@@ -1,0 +1,19 @@
+.cardsAllSection {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cardsRow {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 390px) {
+  .cardsAllSection {
+    display: flex;
+    flex-direction: column;
+  }
+}

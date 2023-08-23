@@ -1,0 +1,20 @@
+.linksnavwrapping {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 15px;
+  width: 50%;
+  margin: 20px 40px;
+}
+
+.signin {
+  color: white;
+  text-decoration: none;
+}
+@media (max-width: 390px) {
+  .linksnavwrapping {
+    margin-right: 10px;
+    margin-left: 0;
+  }
+}

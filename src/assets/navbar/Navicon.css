@@ -1,0 +1,12 @@
+.navImage {
+  width: 50%;
+  margin: 20px 40px;
+}
+.imgNavbar {
+  width: 6rem;
+}
+@media (max-width: 390px) {
+  .navImage {
+    margin-left: 10px;
+  }
+}

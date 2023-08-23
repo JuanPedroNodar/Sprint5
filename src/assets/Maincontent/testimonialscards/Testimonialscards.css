@@ -1,0 +1,28 @@
+.allTestimonials {
+  display: flex;
+  margin: 5rem 7rem;
+  justify-content: space-around;
+}
+.testimonialsWithBg {
+  padding-bottom: 130px;
+  position: relative;
+}
+.comillas {
+  position: absolute;
+  left: 7rem;
+  top: -1.5rem;
+  z-index: -1;
+}
+@media (max-width: 390px) {
+  .allTestimonials {
+    display: flex;
+    flex-direction: column;
+    margin: 5rem 2rem;
+  }
+  .comillas {
+    left: 1.5rem;
+  }
+  .testimonialsWithBg {
+    padding-bottom: 70px;
+  }
+}

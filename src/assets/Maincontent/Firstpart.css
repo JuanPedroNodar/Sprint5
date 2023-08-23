@@ -1,0 +1,30 @@
+.firstPart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: hsl(0, 0%, 100%);
+}
+.firstPart button {
+  background-image: linear-gradient(
+    to right,
+    hsl(176, 68%, 64%),
+    hsl(198, 60%, 50%)
+  );
+  color: white;
+  padding: 10px 45px;
+  border-radius: 15px;
+  border: hsl(176, 68%, 64%);
+}
+.firstPart .firstPartImg {
+  margin-top: 3rem;
+  width: 35rem;
+}
+@media (max-width: 390px) {
+  .firstPart .firstPartImg {
+    width: 20rem;
+    margin-top: 1rem;
+  }
+  .firstPart {
+    text-align: center;
+  }
+}

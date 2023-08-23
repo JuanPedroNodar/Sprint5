@@ -1,0 +1,89 @@
+{
+  "peliculas": [
+    {
+      "id": 1,
+      "nombre": "El sexto sentido",
+      "director": "M. Night Shyamalan",
+      "clasificacion": "Drama"
+    },
+    {
+      "id": 2,
+      "nombre": "Pulp Fiction",
+      "director": "Tarantino",
+      "clasificacion": "Acción"
+    },
+    {
+      "id": 3,
+      "nombre": "Todo Sobre Mi Madre",
+      "director": "Almodobar",
+      "clasificacion": "Drama"
+    },
+    {
+      "id": 4,
+      "nombre": "300",
+      "director": "Zack Snyder",
+      "clasificacion": "Acción"
+    },
+    {
+      "id": 5,
+      "nombre": "El silencio de los corderos",
+      "director": "Jonathan Demme",
+      "clasificacion": "Drama"
+    },
+    {
+      "apellido": "Rodriguez",
+      "tipo": "acciom",
+      "id": 6
+    },
+    {
+      "id": 9,
+      "nombre": "Luis Luis",
+      "director": "Luquitas",
+      "clasificacion": "PLM"
+    },
+    {
+      "id": 11,
+      "apellido": "Rodriguez",
+      "tipo": "acciom",
+      "tipso": "acciom",
+      "tipow": "acciom",
+      "tipor": "acciom"
+    }
+  ],
+  "clasificaciones": [
+    {
+      "nombre": "Drama",
+      "id": 1
+    },
+    {
+      "nombre": "Comedia",
+      "id": 2
+    },
+    {
+      "nombre": "Documental",
+      "id": 3
+    },
+    {
+      "nombre": "Acción",
+      "id": 4
+    }
+  ],
+  "Nombres": [
+    {
+      "nombre": "Jose",
+      "id": 1
+    },
+    {
+      "nombre": "Roberto",
+      "id": 2
+    },
+    {
+      "nombre": "Luis",
+      "id": 3
+    },
+    {
+      "nombre": "Juan",
+      "id": 4
+    }
+  ]
+}

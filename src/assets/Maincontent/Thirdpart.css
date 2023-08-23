@@ -1,0 +1,25 @@
+.Thirdpart {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5rem 7rem;
+}
+
+.stayPrdImg {
+  width: 30rem;
+}
+
+.fyloLink {
+  color: hsl(176, 68%, 64%);
+  text-decoration: underline;
+}
+@media (max-width: 390px) {
+  .Thirdpart {
+    flex-direction: column;
+    margin: 5rem 2rem;
+  }
+  .Thirdpart .stayPrdImg {
+    width: 20rem;
+  }
+}
